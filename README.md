@@ -26,6 +26,42 @@
 - `seoul-subway-arrival`
   - 서울 지하철 실시간 도착 정보 조회
 
+## 에이전트 설치 프롬프트
+
+에이전트에게 설치를 맡기고 싶으면 아래 프롬프트를 그대로 붙여 넣으면 된다.
+
+원격 레포 기준:
+
+```text
+`<owner/repo>`에서 설치 가능한 k-skill 목록을 먼저 확인해줘. 그다음 내가 지금 바로 쓸 만한 스킬만 골라서 설치해.
+
+조건:
+- 조회형 스킬은 바로 설치
+- credential이 필요한 스킬을 설치하면 `k-skill-setup`도 같이 설치
+- 설치 후 어떤 스킬을 설치했는지 정리
+- 추가로 필요한 setup이 있으면 다음 단계만 짧게 안내
+
+우선 설치 후보:
+- k-skill-setup
+- srt-booking
+- ktx-booking
+- kbo-results
+- lotto-results
+- seoul-subway-arrival
+```
+
+로컬 테스트 기준:
+
+```text
+현재 디렉터리의 k-skill 레포에서 설치 가능한 스킬을 확인하고, 내가 바로 테스트할 만한 것만 설치해줘.
+
+조건:
+- 먼저 `npx --yes skills add . --list`로 목록 확인
+- 조회형 스킬은 우선 설치
+- credential이 필요한 스킬을 설치하면 `k-skill-setup`도 같이 설치
+- 설치 결과와 다음 setup 단계만 짧게 정리
+```
+
 ## 빠른 시작
 
 ### 1. 설치 가능한 스킬 목록 보기
