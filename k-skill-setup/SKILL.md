@@ -90,7 +90,7 @@ age-keygen -o ~/.config/k-skill/age/keys.txt
 
 ```yaml
 creation_rules:
-  - path_regex: .*secrets\.env$
+  - path_regex: .*secrets\.env(\.plain)?$
     age: age1replace-with-your-public-key
 ```
 
