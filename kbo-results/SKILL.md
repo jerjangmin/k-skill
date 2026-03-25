@@ -36,13 +36,15 @@ metadata:
 
 ```bash
 node --input-type=module - <<'JS'
-import { getGameInfo } from "kbo-game";
+import { getGame } from "kbo-game";
 
 const date = "2026-03-25";
-const games = await getGameInfo(date);
+const games = await getGame(new Date(`${date}T00:00:00+09:00`));
 console.log(JSON.stringify(games, null, 2));
 JS
 ```
+
+`kbo-game@0.0.2` 기준 실제 export는 `getGame` 하나이며, 문자열 날짜(`"2026-03-25"`)를 직접 넘기면 실패한다. 항상 `Date` 객체로 변환해서 호출한다.
 
 ### 2. Normalize for humans
 

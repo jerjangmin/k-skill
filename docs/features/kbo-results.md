@@ -26,15 +26,17 @@
 
 ```bash
 node --input-type=module - <<'JS'
-import { getGameInfo } from "kbo-game";
+import { getGame } from "kbo-game";
 
 const date = "2026-03-25";
-const games = await getGameInfo(date);
+const games = await getGame(new Date(`${date}T00:00:00+09:00`));
 console.log(JSON.stringify(games, null, 2));
 JS
 ```
 
 ## 주의할 점
 
+- `kbo-game@0.0.2`의 실제 export는 `getGame`입니다. README에 나온 `getGameInfo` 예시는 동작하지 않습니다.
+- `getGame`은 문자열이 아니라 `Date` 객체를 받습니다. `"YYYY-MM-DD"`를 그대로 넘기면 `date.getFullYear is not a function` 오류가 납니다.
 - 비시즌 날짜는 빈 결과가 올 수 있습니다.
 - 사용자의 "오늘/어제" 요청은 항상 절대 날짜로 바꿔 실행하는 편이 안전합니다.
