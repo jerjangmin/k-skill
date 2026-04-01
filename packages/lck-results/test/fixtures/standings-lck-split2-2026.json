@@ -1,0 +1,2984 @@
+{
+  "data": {
+    "standings": [
+      {
+        "stages": [
+          {
+            "id": "115548128961398799",
+            "name": "Regular Season",
+            "type": null,
+            "slug": "regular_season",
+            "sections": [
+              {
+                "name": "Regular Season",
+                "matches": [
+                  {
+                    "id": "115548128962578451",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840599",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840603",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840607",
+                    "state": "completed",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": "loss",
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": "win",
+                          "gameWins": 2
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840611",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840615",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840619",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840623",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840627",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840631",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840635",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840639",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840643",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840647",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840651",
+                    "state": "inProgress",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840655",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840659",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840663",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840667",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840671",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962840675",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906215",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906219",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906223",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906227",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906231",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906235",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906239",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906243",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906247",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906251",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906255",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906259",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906263",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906267",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906271",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906275",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906279",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906283",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906287",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906291",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906295",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906299",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906303",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906307",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906311",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962906315",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971855",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971859",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971863",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971867",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971871",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971875",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971879",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971883",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971887",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971891",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971895",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971899",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971903",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971907",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971911",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971915",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971919",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971923",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971927",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971931",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971935",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971939",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971943",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971947",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971951",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971955",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971959",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128962971963",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037503",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037507",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037511",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037515",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037519",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037523",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037527",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037531",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037535",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037539",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037543",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037547",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037551",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037555",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037559",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                          "outcome": null,
+                          "gameWins": 0
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "rankings": [
+                  {
+                    "ordinal": 1,
+                    "teams": [
+                      {
+                        "id": "100205573496804586",
+                        "slug": "hanwha-life-esports",
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "record": {
+                          "wins": 1,
+                          "losses": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "ordinal": 2,
+                    "teams": [
+                      {
+                        "id": "100205573495116443",
+                        "slug": "geng",
+                        "name": "Gen.G Esports",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "100725845018863243",
+                        "slug": "dwg-kia",
+                        "name": "Dplus KIA",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "100725845022060229",
+                        "slug": "fearx",
+                        "name": "BNK FEARX",
+                        "code": "BFX",
+                        "image": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "102747101565183056",
+                        "slug": "nongshim-redforce",
+                        "name": "NONGSHIM RED FORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "98767991853197861",
+                        "slug": "t1",
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "99566404579461230",
+                        "slug": "kt-rolster",
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "99566404581868574",
+                        "slug": "kwangdong-freecs",
+                        "name": "DN SOOPers",
+                        "code": "DNS",
+                        "image": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      },
+                      {
+                        "id": "99566404585387054",
+                        "slug": "drx",
+                        "name": "KIWOOM DRX",
+                        "code": "KRX",
+                        "image": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "ordinal": 10,
+                    "teams": [
+                      {
+                        "id": "105505619546859895",
+                        "slug": "fredit-brion",
+                        "name": "HANJIN BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
+                        "record": {
+                          "wins": 0,
+                          "losses": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "115548128961398800",
+            "name": "Road to MSI",
+            "type": null,
+            "slug": "road_to_msi",
+            "sections": [
+              {
+                "name": "Road to MSI",
+                "matches": [
+                  {
+                    "id": "115548128963037563",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      },
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037569",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      },
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037575",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      },
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037581",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      },
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      }
+                    ]
+                  },
+                  {
+                    "id": "115548128963037587",
+                    "state": "unstarted",
+                    "previousMatchIds": [],
+                    "flags": [],
+                    "teams": [
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      },
+                      {
+                        "id": "0",
+                        "slug": "tbd",
+                        "name": "TBD",
+                        "code": "TBD",
+                        "image": "https://static.lolesports.com/teams/team-tbd.png",
+                        "result": null
+                      }
+                    ]
+                  }
+                ],
+                "rankings": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
