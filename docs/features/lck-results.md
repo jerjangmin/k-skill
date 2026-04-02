@@ -6,6 +6,10 @@
 - 특정 팀의 현재명/과거명 alias 기준 필터링
 - 현재 스플릿 순위 확인
 - 진행 중 게임의 실시간 킬/골드/오브젝트/선수-챔피언 정보 확인
+- Oracle's Elixir 스타일 historical row / CSV 기반 팀 파워 레이팅 계산
+- live snapshot 기반 turning point 분석
+- 밴픽 role matchup / 시너지 해석
+- 패치별 메타 요약
 
 ## 먼저 필요한 것
 
@@ -57,11 +61,26 @@ console.log(JSON.stringify(summary, null, 2));
 JS
 ```
 
+## 고급 분석 확장 설계 문서
+
+- [LCK 고급 분석 데이터 소스 명세서](lck-results-advanced-analysis-sources.md)
+- [LCK 고급 분석 업데이트 파이프라인](lck-results-advanced-analysis-pipeline.md)
+- [LCK 고급 분석 구현 계획](lck-results-advanced-analysis-implementation-plan.md)
+
+## 현재 구현된 고급 분석 범위
+
+- `getGameAnalysis`: live timeline, turning points, draft edge, patch meta context
+- `getMatchAnalysis`: 날짜별 결과 + 게임별 분석 + 팀 파워 preview
+- `buildHistoricalAnalytics`: Oracle's Elixir 스타일 row / CSV 기반 historical dataset 생성
+- `getTeamPowerRatings`: 팀 파워 점수 요약
+- `getPatchMetaReport`: patch top picks / risers 요약
+
 ## 주의할 점
 
 - Riot 공식 esports API는 일반 Riot Developer API와 별도다.
 - 인게임 디테일은 match-level API가 아니라 live stats feed에서 가져온다.
 - 어떤 game은 `inProgress` 상태여도 live feed가 아직 비어 있어 `204` 를 반환할 수 있다. 이 경우 세트 스코어만 먼저 보여준다.
+- turning point 분석은 공개 접근 가능한 live snapshot 기준 heuristic MVP 이므로, 이벤트 로그 기반 상업용 공식 데이터보다 정밀도는 낮을 수 있다.
 - 일정은 한 번에 전체 시즌을 다 주지 않으므로 page token을 따라 요청 날짜가 포함된 구간까지 이동해야 한다.
 - 순위는 날짜가 속한 토너먼트를 먼저 찾은 뒤 `getStandings` 를 호출해야 한다.
 - `광동`, `DN FREECS`, `Afreeca Freecs` 처럼 이름이 바뀐 팀은 alias 사전으로 정규화한다.

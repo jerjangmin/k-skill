@@ -13,6 +13,15 @@
 - `@ohah/hwpjs`: https://github.com/ohah/hwpjs
 - `hwp-mcp`: https://github.com/jkf87/hwp-mcp
 - `silver-flight-group/kakaocli`: https://github.com/silver-flight-group/kakaocli
+- Riot Esports Data / GRID overview: https://riotesportsdata.com/
+- Riot Esports Data League of Legends page: https://riotesportsdata.com/league-of-legends
+- GRID League of Legends portal: https://grid.gg/get-league-of-legends/
+- GRID access page: https://grid.gg/get-access/
+- Oracle's Elixir: https://oracleselixir.com/
+- Oracle's Elixir match data downloads: https://oracleselixir.com/tools/downloads
+- Oracle's Elixir definitions: https://oracleselixir.com/definitions
+- Games of Legends: https://gol.gg/
+- Riot LoL Esports live stats feed schema reference(Bayes docs): https://docs.bayesesports.com/docs-live-data/message-schema/schemas/Lol/lol_riot_web_livestats
 - KakaoTalk Mac 설치 참고(`mas`): https://velog.io/@bonjugi/%EB%A7%A5%EB%B6%81-M1%EC%97%90-homebrew%EB%A1%9C-node-vscode-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
 - 동행복권 로또 결과 페이지: https://www.dhlottery.co.kr/lt645/result
 - 동행복권 지난 회차 JSON 표면: https://www.dhlottery.co.kr/lt645/selectPstLt645InfoNew.do

@@ -26,7 +26,7 @@
     "esports"
   ],
   "scripts": {
-    "lint": "node --check src/index.js && node --check src/parse.js && node --check src/teams.js && node --check test/index.test.js",
+    "lint": "node --check src/index.js && node --check src/parse.js && node --check src/teams.js && node --check src/oracle.js && node --check src/analytics.js && node --check test/index.test.js",
     "test": "node --test"
   }
 }

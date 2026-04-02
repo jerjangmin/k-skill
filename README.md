@@ -26,6 +26,7 @@ Claude code, codex, opencode 등 각종 코딩 에이전트 지원합니다.
 | KBO 경기 결과 조회 | 날짜별 경기 일정, 결과, 팀별 필터링 | 불필요 | [KBO 결과 가이드](docs/features/kbo-results.md) |
 | K리그 경기 결과 조회 | 날짜별 K리그1/K리그2 경기 결과, 팀별 필터링, 현재 순위 확인 | 불필요 | [K리그 결과 가이드](docs/features/kleague-results.md) |
 | LCK 경기 결과 조회 | Riot 공식 LoL Esports 데이터로 날짜별 LCK 경기 결과, 팀명 변경 alias 필터링, 현재 스플릿 순위 확인 | 불필요 | [LCK 결과 가이드](docs/features/lck-results.md) |
+| LCK 고급 분석 설계 | turning point, 카운터/시너지, 패치 메타, 팀 파워 레이팅 확장을 위한 데이터 소스/파이프라인/구현 계획 문서 | 불필요 | [LCK 고급 분석 설계](docs/features/lck-results-advanced-analysis-sources.md) |
 | 토스증권 조회 | `tossctl` 기반 계좌 요약, 포트폴리오, 시세, 주문내역, 관심종목 조회 | 필요 | [토스증권 조회 가이드](docs/features/toss-securities.md) |
 | 로또 당첨 확인 | 최신 회차, 특정 회차, 번호 대조 | 불필요 | [로또 결과 가이드](docs/features/lotto-results.md) |
 | HWP 문서 처리 | `.hwp` → JSON/Markdown/HTML 변환, 이미지 추출, 배치 처리, Windows 직접 제어 선택 | 불필요 | [HWP 문서 처리 가이드](docs/features/hwp.md) |
@@ -66,6 +67,9 @@ Claude code, codex, opencode 등 각종 코딩 에이전트 지원합니다.
 - [KBO 경기 결과 조회](docs/features/kbo-results.md)
 - [K리그 경기 결과 조회](docs/features/kleague-results.md)
 - [LCK 경기 결과 조회](docs/features/lck-results.md)
+- [LCK 고급 분석 데이터 소스 명세서](docs/features/lck-results-advanced-analysis-sources.md)
+- [LCK 고급 분석 업데이트 파이프라인](docs/features/lck-results-advanced-analysis-pipeline.md)
+- [LCK 고급 분석 구현 계획](docs/features/lck-results-advanced-analysis-implementation-plan.md)
 - [토스증권 조회 가이드](docs/features/toss-securities.md)
 - [로또 당첨 확인](docs/features/lotto-results.md)
 - [HWP 문서 처리](docs/features/hwp.md)

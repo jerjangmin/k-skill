@@ -14,6 +14,15 @@ const {
   normalizeTournamentList,
   resolveTournamentForDate,
 } = require("./parse");
+const {
+  buildGameAnalysis,
+  compareTeams,
+  getPatchMetaSummary,
+} = require("./analytics");
+const {
+  buildHistoricalDataset,
+  parseOracleCsv,
+} = require("./oracle");
 
 async function requestJson(path, options = {}) {
   const fetchImpl = options.fetchImpl || global.fetch;
@@ -265,6 +274,92 @@ async function getLckSummary(date, options = {}) {
   return summary;
 }
 
+function buildHistoricalAnalytics(input, options = {}) {
+  const rows = typeof input === "string" ? parseOracleCsv(input) : input;
+  return buildHistoricalDataset(Array.isArray(rows) ? rows : [], options);
+}
+
+async function getGameAnalysis(gameId, options = {}) {
+  const historical = options.historicalDataset
+    || buildHistoricalAnalytics(options.oracleCsv || options.historicalRows || [], options);
+  const liveWindowPayload = options.liveWindowPayload !== undefined
+    ? options.liveWindowPayload
+    : await fetchLiveWindow({ ...options, gameId });
+  const liveDetailsPayload = options.liveDetailsPayload !== undefined
+    ? options.liveDetailsPayload
+    : await fetchLiveDetails({ ...options, gameId });
+
+  const game = options.game || {
+    id: gameId,
+    number: options.number || null,
+    state: options.state || (liveWindowPayload?.frames?.length ? "inProgress" : null),
+    live: null,
+  };
+
+  return buildGameAnalysis(game, historical, {
+    matchId: options.matchId,
+    liveWindowPayload,
+    liveDetailsPayload,
+    turningPointOptions: options.turningPointOptions,
+  });
+}
+
+async function getMatchAnalysis(date, options = {}) {
+  const matchesResponse = options.matchesResponse || await getMatchResults(date, options);
+  const historical = options.historicalDataset
+    || buildHistoricalAnalytics(options.oracleCsv || options.historicalRows || [], options);
+
+  const matches = await Promise.all(matchesResponse.matches.map(async (match) => {
+    const baseMatch = options.includeLiveDetails === false || match.games ? match : (await enrichMatchesWithLiveDetails([match], options))[0];
+    const analyses = await Promise.all((baseMatch.games || []).map(async (game) => {
+      if (!game.live && options.liveWindowByGameId?.[game.id] === undefined && game.state !== "inProgress") {
+        return {
+          gameId: game.id,
+          number: game.number,
+          state: game.state,
+          patch: null,
+          current: null,
+          timeline: [],
+          turningPoints: [],
+          draft: null,
+          meta: null,
+        };
+      }
+
+      return getGameAnalysis(game.id, {
+        ...options,
+        game,
+        matchId: baseMatch.matchId,
+        historicalDataset: historical,
+        liveWindowPayload: options.liveWindowByGameId?.[game.id],
+        liveDetailsPayload: options.liveDetailsByGameId?.[game.id],
+      });
+    }));
+
+    return {
+      ...baseMatch,
+      analyses,
+      powerPreview: compareTeams(baseMatch.team1?.canonicalId, baseMatch.team2?.canonicalId, historical),
+    };
+  }));
+
+  return {
+    queryDate: matchesResponse.queryDate,
+    filteredTeam: matchesResponse.filteredTeam,
+    matches,
+  };
+}
+
+function getTeamPowerRatings(input, options = {}) {
+  const historical = input?.teamPowerRatings ? input : buildHistoricalAnalytics(input, options);
+  return historical.teamPowerRatings;
+}
+
+function getPatchMetaReport(input, patch, options = {}) {
+  const historical = input?.patchMeta ? input : buildHistoricalAnalytics(input, options);
+  return getPatchMetaSummary(historical, patch);
+}
+
 function mergeSchedulePages(pages) {
   const merged = [];
   const seen = new Set();
@@ -342,6 +437,7 @@ function resolveSearchDirection(payload, requestedDate) {
 }
 
 module.exports = {
+  buildHistoricalAnalytics,
   enrichMatchesWithLiveDetails,
   fetchEventDetails,
   fetchLiveDetails,
@@ -349,10 +445,15 @@ module.exports = {
   fetchSchedulePage,
   fetchStandings,
   fetchTournaments,
+  getGameAnalysis,
   getLckSummary,
+  getMatchAnalysis,
   getMatchResults,
+  getPatchMetaReport,
   getStandings,
+  getTeamPowerRatings,
   mergeSchedulePages,
+  parseOracleCsv,
   requestJson,
   requestLiveJson,
   resolveSearchDirection,

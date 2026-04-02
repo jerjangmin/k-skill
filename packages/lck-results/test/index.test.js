@@ -4,9 +4,15 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const {
+  buildHistoricalAnalytics,
+  getGameAnalysis,
   getLckSummary,
+  getMatchAnalysis,
   getMatchResults,
+  getPatchMetaReport,
   getStandings,
+  getTeamPowerRatings,
+  parseOracleCsv,
   resolveSearchDirection,
   summarizeMatchLive,
 } = require("../src/index");
@@ -23,6 +29,7 @@ const {
 const { resolveTeamQuery } = require("../src/teams");
 
 const fixturesDir = path.join(__dirname, "fixtures");
+const oracleCsv = fs.readFileSync(path.join(fixturesDir, "oracle-lck-sample.csv"), "utf8");
 const schedulePage1 = JSON.parse(fs.readFileSync(path.join(fixturesDir, "schedule-lck-page1.json"), "utf8"));
 const schedulePage2 = JSON.parse(fs.readFileSync(path.join(fixturesDir, "schedule-lck-page2.json"), "utf8"));
 const tournamentsPayload = JSON.parse(fs.readFileSync(path.join(fixturesDir, "tournaments-lck.json"), "utf8"));
@@ -92,6 +99,82 @@ test("live detail normalization filters meaningless startup frames", () => {
   assert.equal(hasMeaningfulLiveStats(live), false);
 });
 
+
+test("Oracle historical analytics builds power ratings, matchups, synergies, and patch meta", () => {
+  const rows = parseOracleCsv(oracleCsv);
+  const analytics = buildHistoricalAnalytics(rows);
+  const ratings = getTeamPowerRatings(analytics);
+  const patchMeta = getPatchMetaReport(analytics, "16.6.753.8272");
+
+  assert.equal(rows.length, 20);
+  assert.equal(ratings[0].teamId, "hle");
+  assert.equal(ratings[1].teamId, "t1");
+  assert.ok(analytics.matchupStats.some((entry) => entry.champion === "Ahri" && entry.opponentChampion === "Orianna"));
+  assert.ok(analytics.synergyStats.some((entry) => entry.championA === "Ahri" && entry.championB === "Ashe"));
+  assert.equal(patchMeta.patch, "16.6.753.8272");
+  assert.ok(patchMeta.topPicks.length > 0);
+});
+
+test("game analysis produces turning points, draft edge, and meta context", async () => {
+  const analytics = buildHistoricalAnalytics(oracleCsv);
+  const windowPayload = buildMeaningfulWindowPayload();
+  const detailsPayload = buildMeaningfulDetailsPayload();
+
+  const analysis = await getGameAnalysis("synthetic-game-1", {
+    matchId: "synthetic-match-1",
+    number: 1,
+    state: "inProgress",
+    historicalDataset: analytics,
+    liveWindowPayload: windowPayload,
+    liveDetailsPayload: detailsPayload,
+  });
+
+  assert.equal(analysis.patch, "16.6.753.8272");
+  assert.ok(analysis.timeline.length >= 3);
+  assert.ok(analysis.turningPoints.length >= 1);
+  assert.equal(analysis.draft.roleMatchups.length, 5);
+  assert.equal(analysis.meta.patch, "16.6.753.8272");
+});
+
+test("match analysis attaches game analyses and team power preview", async () => {
+  const analytics = buildHistoricalAnalytics(oracleCsv);
+  const matchResponse = {
+    queryDate: "2026-04-01",
+    filteredTeam: null,
+    matches: [
+      {
+        matchId: "synthetic-match-1",
+        eventId: "synthetic-event-1",
+        team1: { canonicalId: "hle", name: "Hanwha Life Esports" },
+        team2: { canonicalId: "t1", name: "T1" },
+        games: [
+          {
+            id: "synthetic-game-1",
+            number: 1,
+            state: "inProgress",
+            live: null,
+          },
+        ],
+      },
+    ],
+  };
+
+  const summary = await getMatchAnalysis("2026-04-01", {
+    matchesResponse: matchResponse,
+    historicalDataset: analytics,
+    liveWindowByGameId: {
+      "synthetic-game-1": buildMeaningfulWindowPayload(),
+    },
+    liveDetailsByGameId: {
+      "synthetic-game-1": buildMeaningfulDetailsPayload(),
+    },
+  });
+
+  assert.equal(summary.matches.length, 1);
+  assert.equal(summary.matches[0].analyses.length, 1);
+  assert.equal(summary.matches[0].powerPreview.favoredTeamId, "hle");
+  assert.ok(summary.matches[0].analyses[0].turningPoints.length >= 1);
+});
 
 test("public fetchers compose date results, live details, and standings via mocked fetch", async () => {
   const originalFetch = global.fetch;
@@ -184,4 +267,115 @@ function makeResponse(body) {
       "content-type": "application/json",
     },
   });
+}
+
+function buildMeaningfulWindowPayload() {
+  return {
+    esportsGameId: "synthetic-game-1",
+    esportsMatchId: "synthetic-match-1",
+    gameMetadata: {
+      patchVersion: "16.6.753.8272",
+      blueTeamMetadata: {
+        esportsTeamId: "100205573496804586",
+        participantMetadata: [
+          { participantId: 1, esportsPlayerId: "1", summonerName: "HLE Zeus", championId: "Jayce", role: "top" },
+          { participantId: 2, esportsPlayerId: "2", summonerName: "HLE Peanut", championId: "Vi", role: "jungle" },
+          { participantId: 3, esportsPlayerId: "3", summonerName: "HLE Zeka", championId: "Ahri", role: "mid" },
+          { participantId: 4, esportsPlayerId: "4", summonerName: "HLE Viper", championId: "Ashe", role: "bottom" },
+          { participantId: 5, esportsPlayerId: "5", summonerName: "HLE Delight", championId: "Rell", role: "support" },
+        ],
+      },
+      redTeamMetadata: {
+        esportsTeamId: "98767991853197861",
+        participantMetadata: [
+          { participantId: 6, esportsPlayerId: "6", summonerName: "T1 Doran", championId: "Gnar", role: "top" },
+          { participantId: 7, esportsPlayerId: "7", summonerName: "T1 Oner", championId: "Sejuani", role: "jungle" },
+          { participantId: 8, esportsPlayerId: "8", summonerName: "T1 Faker", championId: "Orianna", role: "mid" },
+          { participantId: 9, esportsPlayerId: "9", summonerName: "T1 Gumayusi", championId: "Ezreal", role: "bottom" },
+          { participantId: 10, esportsPlayerId: "10", summonerName: "T1 Keria", championId: "Alistar", role: "support" },
+        ],
+      },
+    },
+    frames: [
+      buildWindowFrame("2026-04-01T09:00:00.000Z", 420, 20500, 19000, 5, 2, 2, 1, ["air"], []),
+      buildWindowFrame("2026-04-01T09:01:30.000Z", 510, 24500, 22500, 8, 4, 3, 2, ["air", "fire"], []),
+      buildWindowFrame("2026-04-01T09:03:00.000Z", 600, 26200, 27600, 8, 9, 3, 4, ["air", "fire"], ["earth"]),
+      buildWindowFrame("2026-04-01T09:04:30.000Z", 690, 31800, 28900, 12, 10, 5, 4, ["air", "fire"], ["earth"], 1, 0),
+    ],
+  };
+}
+
+function buildWindowFrame(timestamp, seconds, blueGold, redGold, blueKills, redKills, blueTowers, redTowers, blueDragons, redDragons, blueBarons = 0, redBarons = 0) {
+  return {
+    rfc460Timestamp: timestamp,
+    gameState: "in_game",
+    blueTeam: {
+      totalGold: blueGold,
+      inhibitors: 0,
+      towers: blueTowers,
+      barons: blueBarons,
+      totalKills: blueKills,
+      dragons: blueDragons,
+      participants: buildParticipants(1, 5, blueGold, blueKills, seconds),
+    },
+    redTeam: {
+      totalGold: redGold,
+      inhibitors: 0,
+      towers: redTowers,
+      barons: redBarons,
+      totalKills: redKills,
+      dragons: redDragons,
+      participants: buildParticipants(6, 10, redGold, redKills, seconds),
+    },
+  };
+}
+
+function buildParticipants(startId, endId, totalGold, totalKills, seconds) {
+  const participants = [];
+  const count = endId - startId + 1;
+  for (let participantId = startId; participantId <= endId; participantId += 1) {
+    participants.push({
+      participantId,
+      totalGold: Math.round(totalGold / count) + (participantId - startId) * 100,
+      level: Math.max(1, Math.floor(seconds / 60 / 2) + 1),
+      kills: participantId === startId ? Math.max(0, totalKills - 2) : 0,
+      deaths: participantId === startId ? 0 : 1,
+      assists: participantId === startId + 1 ? 3 : 1,
+      creepScore: Math.floor(seconds / 15) + participantId,
+      currentHealth: 1000,
+      maxHealth: 1200,
+    });
+  }
+  return participants;
+}
+
+function buildMeaningfulDetailsPayload() {
+  return {
+    frames: [
+      buildDetailsFrame("2026-04-01T09:00:00.000Z", 420),
+      buildDetailsFrame("2026-04-01T09:01:30.000Z", 510),
+      buildDetailsFrame("2026-04-01T09:03:00.000Z", 600),
+      buildDetailsFrame("2026-04-01T09:04:30.000Z", 690),
+    ],
+  };
+}
+
+function buildDetailsFrame(timestamp, seconds) {
+  const participants = [];
+  for (let participantId = 1; participantId <= 10; participantId += 1) {
+    participants.push({
+      participantId,
+      level: Math.max(1, Math.floor(seconds / 60 / 2) + 1),
+      kills: participantId === 1 ? 4 : 0,
+      deaths: participantId === 6 ? 3 : 1,
+      assists: participantId === 2 ? 5 : 2,
+      creepScore: Math.floor(seconds / 15) + participantId,
+      totalGoldEarned: 3000 + (participantId * 100),
+      items: participantId % 2 === 0 ? [1001, 2003] : [1055],
+    });
+  }
+  return {
+    rfc460Timestamp: timestamp,
+    participants,
+  };
 }
