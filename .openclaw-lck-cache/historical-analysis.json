@@ -1,0 +1,1379 @@
+{
+  "source": {
+    "type": "oracle-style-csv",
+    "csvPath": "/Users/mindasom/dev/k-skill/openclaw/lck-results/samples/oracle-lck-sample.csv",
+    "league": "LCK",
+    "updatedAt": "2026-04-02T03:34:43.959Z"
+  },
+  "data": {
+    "rows": [
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Zeus",
+        "position": "top",
+        "champion": "Jayce",
+        "opponentChampion": "Gnar",
+        "result": "win",
+        "goldDiffAt15": 1200,
+        "csDiffAt15": 18,
+        "xpDiffAt15": 340,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Peanut",
+        "position": "jungle",
+        "champion": "Vi",
+        "opponentChampion": "Sejuani",
+        "result": "win",
+        "goldDiffAt15": 1200,
+        "csDiffAt15": 18,
+        "xpDiffAt15": 340,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Zeka",
+        "position": "mid",
+        "champion": "Ahri",
+        "opponentChampion": "Orianna",
+        "result": "win",
+        "goldDiffAt15": 1200,
+        "csDiffAt15": 18,
+        "xpDiffAt15": 340,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Viper",
+        "position": "bottom",
+        "champion": "Ashe",
+        "opponentChampion": "Ezreal",
+        "result": "win",
+        "goldDiffAt15": 1200,
+        "csDiffAt15": 18,
+        "xpDiffAt15": 340,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Delight",
+        "position": "support",
+        "champion": "Rell",
+        "opponentChampion": "Alistar",
+        "result": "win",
+        "goldDiffAt15": 1200,
+        "csDiffAt15": 18,
+        "xpDiffAt15": 340,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Doran",
+        "position": "top",
+        "champion": "Gnar",
+        "opponentChampion": "Jayce",
+        "result": "loss",
+        "goldDiffAt15": -1200,
+        "csDiffAt15": -18,
+        "xpDiffAt15": -340,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Oner",
+        "position": "jungle",
+        "champion": "Sejuani",
+        "opponentChampion": "Vi",
+        "result": "loss",
+        "goldDiffAt15": -1200,
+        "csDiffAt15": -18,
+        "xpDiffAt15": -340,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Faker",
+        "position": "mid",
+        "champion": "Orianna",
+        "opponentChampion": "Ahri",
+        "result": "loss",
+        "goldDiffAt15": -1200,
+        "csDiffAt15": -18,
+        "xpDiffAt15": -340,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Gumayusi",
+        "position": "bottom",
+        "champion": "Ezreal",
+        "opponentChampion": "Ashe",
+        "result": "loss",
+        "goldDiffAt15": -1200,
+        "csDiffAt15": -18,
+        "xpDiffAt15": -340,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-1",
+        "date": "2026-03-20",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Keria",
+        "position": "support",
+        "champion": "Alistar",
+        "opponentChampion": "Rell",
+        "result": "loss",
+        "goldDiffAt15": -1200,
+        "csDiffAt15": -18,
+        "xpDiffAt15": -340,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Doran",
+        "position": "top",
+        "champion": "Ambessa",
+        "opponentChampion": "Jayce",
+        "result": "win",
+        "goldDiffAt15": 900,
+        "csDiffAt15": 11,
+        "xpDiffAt15": 180,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Oner",
+        "position": "jungle",
+        "champion": "JarvanIV",
+        "opponentChampion": "Vi",
+        "result": "win",
+        "goldDiffAt15": 900,
+        "csDiffAt15": 11,
+        "xpDiffAt15": 180,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Faker",
+        "position": "mid",
+        "champion": "Orianna",
+        "opponentChampion": "Ahri",
+        "result": "win",
+        "goldDiffAt15": 900,
+        "csDiffAt15": 11,
+        "xpDiffAt15": 180,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Gumayusi",
+        "position": "bottom",
+        "champion": "Ezreal",
+        "opponentChampion": "Ashe",
+        "result": "win",
+        "goldDiffAt15": 900,
+        "csDiffAt15": 11,
+        "xpDiffAt15": 180,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "blue",
+        "team": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "opponent": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "playerName": "T1 Keria",
+        "position": "support",
+        "champion": "Anivia",
+        "opponentChampion": "Rell",
+        "result": "win",
+        "goldDiffAt15": 900,
+        "csDiffAt15": 11,
+        "xpDiffAt15": 180,
+        "firstBloodRate": null,
+        "dragonControlRate": 100,
+        "baronControlRate": 100,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Zeus",
+        "position": "top",
+        "champion": "Jayce",
+        "opponentChampion": "Ambessa",
+        "result": "loss",
+        "goldDiffAt15": -900,
+        "csDiffAt15": -11,
+        "xpDiffAt15": -180,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Peanut",
+        "position": "jungle",
+        "champion": "Vi",
+        "opponentChampion": "JarvanIV",
+        "result": "loss",
+        "goldDiffAt15": -900,
+        "csDiffAt15": -11,
+        "xpDiffAt15": -180,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Zeka",
+        "position": "mid",
+        "champion": "Ahri",
+        "opponentChampion": "Orianna",
+        "result": "loss",
+        "goldDiffAt15": -900,
+        "csDiffAt15": -11,
+        "xpDiffAt15": -180,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Viper",
+        "position": "bottom",
+        "champion": "Ashe",
+        "opponentChampion": "Ezreal",
+        "result": "loss",
+        "goldDiffAt15": -900,
+        "csDiffAt15": -11,
+        "xpDiffAt15": -180,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": false,
+        "counterPick": true
+      },
+      {
+        "matchId": "match-2",
+        "date": "2026-03-27",
+        "patch": "16.6.753.8272",
+        "side": "red",
+        "team": {
+          "input": "Hanwha Life Esports",
+          "canonicalId": "hle",
+          "name": "Hanwha Life Esports"
+        },
+        "opponent": {
+          "input": "T1",
+          "canonicalId": "t1",
+          "name": "T1"
+        },
+        "playerName": "HLE Delight",
+        "position": "support",
+        "champion": "Rell",
+        "opponentChampion": "Anivia",
+        "result": "loss",
+        "goldDiffAt15": -900,
+        "csDiffAt15": -11,
+        "xpDiffAt15": -180,
+        "firstBloodRate": null,
+        "dragonControlRate": 0,
+        "baronControlRate": 0,
+        "towerControlRate": null,
+        "kills": null,
+        "deaths": null,
+        "assists": null,
+        "gamesPlayed": 1,
+        "blindPick": true,
+        "counterPick": false
+      }
+    ],
+    "teamPowerRatings": [
+      {
+        "teamId": "hle",
+        "games": 10,
+        "wins": 5,
+        "losses": 5,
+        "recentWins": 0,
+        "recentGames": 5,
+        "avgGoldDiffAt15": 150,
+        "avgDragonControlRate": 50,
+        "avgBaronControlRate": 50,
+        "powerScore": 50.5,
+        "tier": "average"
+      },
+      {
+        "teamId": "t1",
+        "games": 10,
+        "wins": 5,
+        "losses": 5,
+        "recentWins": 5,
+        "recentGames": 5,
+        "avgGoldDiffAt15": -150,
+        "avgDragonControlRate": 50,
+        "avgBaronControlRate": 50,
+        "powerScore": 49.5,
+        "tier": "average"
+      }
+    ],
+    "championStats": [
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Jayce",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "avgXpDiffAt15": 80,
+        "blindPickRate": 100,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "Vi",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "avgXpDiffAt15": 80,
+        "blindPickRate": 50,
+        "counterPickRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "mid",
+        "champion": "Ahri",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "avgXpDiffAt15": 80,
+        "blindPickRate": 0,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "bottom",
+        "champion": "Ashe",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "avgXpDiffAt15": 80,
+        "blindPickRate": 50,
+        "counterPickRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Rell",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "avgXpDiffAt15": 80,
+        "blindPickRate": 50,
+        "counterPickRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "mid",
+        "champion": "Orianna",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": -150,
+        "avgCsDiffAt15": -3.5,
+        "avgXpDiffAt15": -80,
+        "blindPickRate": 100,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "bottom",
+        "champion": "Ezreal",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": -150,
+        "avgCsDiffAt15": -3.5,
+        "avgXpDiffAt15": -80,
+        "blindPickRate": 50,
+        "counterPickRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Gnar",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -1200,
+        "avgCsDiffAt15": -18,
+        "avgXpDiffAt15": -340,
+        "blindPickRate": 0,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "Sejuani",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -1200,
+        "avgCsDiffAt15": -18,
+        "avgXpDiffAt15": -340,
+        "blindPickRate": 100,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Alistar",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -1200,
+        "avgCsDiffAt15": -18,
+        "avgXpDiffAt15": -340,
+        "blindPickRate": 100,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Ambessa",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 900,
+        "avgCsDiffAt15": 11,
+        "avgXpDiffAt15": 180,
+        "blindPickRate": 0,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "JarvanIV",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 900,
+        "avgCsDiffAt15": 11,
+        "avgXpDiffAt15": 180,
+        "blindPickRate": 0,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Anivia",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 900,
+        "avgCsDiffAt15": 11,
+        "avgXpDiffAt15": 180,
+        "blindPickRate": 0,
+        "counterPickRate": 100
+      }
+    ],
+    "matchupStats": [
+      {
+        "patch": "16.6.753.8272",
+        "position": "mid",
+        "champion": "Ahri",
+        "opponentChampion": "Orianna",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "bottom",
+        "champion": "Ashe",
+        "opponentChampion": "Ezreal",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": 150,
+        "avgCsDiffAt15": 3.5,
+        "counterPickRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "mid",
+        "champion": "Orianna",
+        "opponentChampion": "Ahri",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": -150,
+        "avgCsDiffAt15": -3.5,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "bottom",
+        "champion": "Ezreal",
+        "opponentChampion": "Ashe",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50,
+        "avgGoldDiffAt15": -150,
+        "avgCsDiffAt15": -3.5,
+        "counterPickRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Jayce",
+        "opponentChampion": "Gnar",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 1200,
+        "avgCsDiffAt15": 18,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "Vi",
+        "opponentChampion": "Sejuani",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 1200,
+        "avgCsDiffAt15": 18,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Rell",
+        "opponentChampion": "Alistar",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 1200,
+        "avgCsDiffAt15": 18,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Gnar",
+        "opponentChampion": "Jayce",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -1200,
+        "avgCsDiffAt15": -18,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "Sejuani",
+        "opponentChampion": "Vi",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -1200,
+        "avgCsDiffAt15": -18,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Alistar",
+        "opponentChampion": "Rell",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -1200,
+        "avgCsDiffAt15": -18,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Ambessa",
+        "opponentChampion": "Jayce",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 900,
+        "avgCsDiffAt15": 11,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "JarvanIV",
+        "opponentChampion": "Vi",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 900,
+        "avgCsDiffAt15": 11,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Anivia",
+        "opponentChampion": "Rell",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100,
+        "avgGoldDiffAt15": 900,
+        "avgCsDiffAt15": 11,
+        "counterPickRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "top",
+        "champion": "Jayce",
+        "opponentChampion": "Ambessa",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -900,
+        "avgCsDiffAt15": -11,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "jungle",
+        "champion": "Vi",
+        "opponentChampion": "JarvanIV",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -900,
+        "avgCsDiffAt15": -11,
+        "counterPickRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "position": "support",
+        "champion": "Rell",
+        "opponentChampion": "Anivia",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0,
+        "avgGoldDiffAt15": -900,
+        "avgCsDiffAt15": -11,
+        "counterPickRate": 0
+      }
+    ],
+    "synergyStats": [
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Jayce",
+        "championB": "Vi",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ahri",
+        "championB": "Jayce",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ashe",
+        "championB": "Jayce",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Jayce",
+        "championB": "Rell",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ahri",
+        "championB": "Vi",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ashe",
+        "championB": "Vi",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Rell",
+        "championB": "Vi",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ahri",
+        "championB": "Ashe",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ahri",
+        "championB": "Rell",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ashe",
+        "championB": "Rell",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ezreal",
+        "championB": "Orianna",
+        "games": 2,
+        "wins": 1,
+        "winRate": 50
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Gnar",
+        "championB": "Sejuani",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Gnar",
+        "championB": "Orianna",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ezreal",
+        "championB": "Gnar",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Alistar",
+        "championB": "Gnar",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Orianna",
+        "championB": "Sejuani",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ezreal",
+        "championB": "Sejuani",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Alistar",
+        "championB": "Sejuani",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Alistar",
+        "championB": "Orianna",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Alistar",
+        "championB": "Ezreal",
+        "games": 1,
+        "wins": 0,
+        "winRate": 0
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ambessa",
+        "championB": "JarvanIV",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ambessa",
+        "championB": "Orianna",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ambessa",
+        "championB": "Ezreal",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ambessa",
+        "championB": "Anivia",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "JarvanIV",
+        "championB": "Orianna",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Ezreal",
+        "championB": "JarvanIV",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Anivia",
+        "championB": "JarvanIV",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Anivia",
+        "championB": "Orianna",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      },
+      {
+        "patch": "16.6.753.8272",
+        "championA": "Anivia",
+        "championB": "Ezreal",
+        "games": 1,
+        "wins": 1,
+        "winRate": 100
+      }
+    ],
+    "patchMeta": [
+      {
+        "patch": "16.6.753.8272",
+        "topPicks": [
+          {
+            "champion": "Jayce",
+            "position": "top",
+            "games": 2,
+            "winRate": 50
+          },
+          {
+            "champion": "Vi",
+            "position": "jungle",
+            "games": 2,
+            "winRate": 50
+          },
+          {
+            "champion": "Ahri",
+            "position": "mid",
+            "games": 2,
+            "winRate": 50
+          },
+          {
+            "champion": "Ashe",
+            "position": "bottom",
+            "games": 2,
+            "winRate": 50
+          },
+          {
+            "champion": "Rell",
+            "position": "support",
+            "games": 2,
+            "winRate": 50
+          }
+        ],
+        "risers": [
+          {
+            "champion": "Jayce",
+            "position": "top",
+            "games": 2,
+            "winRate": 50,
+            "gameDelta": 2
+          },
+          {
+            "champion": "Vi",
+            "position": "jungle",
+            "games": 2,
+            "winRate": 50,
+            "gameDelta": 2
+          },
+          {
+            "champion": "Ahri",
+            "position": "mid",
+            "games": 2,
+            "winRate": 50,
+            "gameDelta": 2
+          }
+        ]
+      }
+    ]
+  }
+}

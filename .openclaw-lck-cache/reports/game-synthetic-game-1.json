@@ -1,0 +1,82 @@
+{
+  "gameId": "synthetic-game-1",
+  "number": 1,
+  "state": "inProgress",
+  "patch": null,
+  "current": null,
+  "timeline": [],
+  "turningPoints": [],
+  "draft": {
+    "patch": null,
+    "roleMatchups": [],
+    "blueSynergy": {
+      "samplePairs": 0,
+      "avgWinRate": null,
+      "topPairs": []
+    },
+    "redSynergy": {
+      "samplePairs": 0,
+      "avgWinRate": null,
+      "topPairs": []
+    },
+    "overallEdge": null
+  },
+  "meta": {
+    "patch": null,
+    "topPicks": [
+      {
+        "champion": "Jayce",
+        "position": "top",
+        "games": 2,
+        "winRate": 50
+      },
+      {
+        "champion": "Vi",
+        "position": "jungle",
+        "games": 2,
+        "winRate": 50
+      },
+      {
+        "champion": "Ahri",
+        "position": "mid",
+        "games": 2,
+        "winRate": 50
+      },
+      {
+        "champion": "Ashe",
+        "position": "bottom",
+        "games": 2,
+        "winRate": 50
+      },
+      {
+        "champion": "Rell",
+        "position": "support",
+        "games": 2,
+        "winRate": 50
+      }
+    ],
+    "risers": [
+      {
+        "champion": "Jayce",
+        "position": "top",
+        "games": 2,
+        "winRate": 50,
+        "gameDelta": 2
+      },
+      {
+        "champion": "Vi",
+        "position": "jungle",
+        "games": 2,
+        "winRate": 50,
+        "gameDelta": 2
+      },
+      {
+        "champion": "Ahri",
+        "position": "mid",
+        "games": 2,
+        "winRate": 50,
+        "gameDelta": 2
+      }
+    ]
+  }
+}
